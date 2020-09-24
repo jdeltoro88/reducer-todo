@@ -30,7 +30,7 @@ export const initialList = {
    }
    export const reducer = (state, action) => {
        switch (action.type) {
-           case 'ADD _TASK':
+           case 'ADD_TASK':
                console.log("action.payload", action)
                return {
                    ...state, 
